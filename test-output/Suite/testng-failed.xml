@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="5">
+  <test thread-count="5" name="Test(failed)" verbose="5">
+    <parameter name="uname" value="AshokAdla"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="pwd" value="Hyderabadcitytour@12345"/>
+    <parameter name="phno" value="+91 97030 86277"/>
+    <parameter name="url" value="https://sso.redhat.com"/>
+    <parameter name="email" value="ashokchakra1988@gmail.com"/>
+    <classes>
+      <class name="week6.day1.HomeAssignments.RedHatPortalWithTestNGExcel">
+        <methods>
+          <include name="runRedHatPortal"/>
+          <include name="beforeMethod"/>
+          <include name="tearup"/>
+        </methods>
+      </class> <!-- week6.day1.HomeAssignments.RedHatPortalWithTestNGExcel -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
